@@ -1,0 +1,13 @@
+FROM golang
+
+ADD ask-server /go/src/github.com/ComputePractice2017/ask-server 
+
+RUN go get "github.com/gorilla/mux"
+RUN go get "github.com/gorilla/handlers"
+RUN go get "gopkg.in/gorethink/gorethink.v3"
+RUN go install github.com/ComputePractice2017/ask-server
+
+ENTRYPOINT /go/bin/ask-server
+
+
+EXPOSE 8000
