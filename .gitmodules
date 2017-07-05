@@ -1,0 +1,6 @@
+[submodule "aks-web"]
+	path = aks-web
+	url = https://github.com/ComputePractice2017/aks-web.git
+[submodule "ask-server"]
+	path = ask-server
+	url = https://github.com/ComputePractice2017/ask-server.git
