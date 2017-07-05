@@ -9,5 +9,6 @@ RUN go install github.com/ComputePractice2017/ask-server
 
 ENTRYPOINT /go/bin/ask-server
 
+ENV RETHINKDB_HOST db
 
 EXPOSE 8000

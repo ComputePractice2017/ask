@@ -1,4 +1,5 @@
-cd aks-web\ask-web
+cd aks-web
+cd ask-web
 npm install
 npm run build
 cd ..
