@@ -1,1 +1,0 @@
-docker run --name rethink -p "8080:8080" -p "28015:28015" -d rethinkdb
